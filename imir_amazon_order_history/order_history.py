@@ -58,9 +58,10 @@ print(order_names_pivot)
 #
 # plt.show()
 
+def tab(frame, format):
+    return tabulate(frame, headers='keys', tablefmt= format)
 
-
-
+# print(tab(orders, 'psql'))
 
 
 
