@@ -47,7 +47,7 @@ pivoted_df = dates_and_months.pivot(
 )
 
 pivoted_df = pivoted_df.fillna(0)
-print('most purchases made for 2023'.title())
+print('most purchases made for each month of 2023'.title())
 print(tab(pivoted_df, 'psql'))
 
 overall_sum_2023 = df_2023.groupby(['Name'])['Total Owed'].sum().reset_index()
