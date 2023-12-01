@@ -38,4 +38,21 @@ def get_name(name):
 df['Name'] = df['Shipping Address'].apply(get_name)
 
 overall_sum = df.groupby(['Name'])['Total Owed'].sum().reset_index()
-print(overall_sum)
+tab(overall_sum, 'psql')
+
+x = sorted(df['Name'].unique())
+y = overall_sum['Total Owed']
+plt.style.use('dark_background')
+fig, ax = plt.subplots()
+ax.scatter(x, y, c=y, cmap=plt.cm.Blues, s=10)
+ax.set_title('who spent the most money'.title(), fontsize=21)
+ax.set_xlabel("name of the spenders".title(), fontsize=14)
+ax.set_ylabel('total spent'.title(), fontsize=14)
+
+
+plt.plot(x, y)
+
+
+def plt_show():
+    return plt.show()
+
