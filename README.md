@@ -22,4 +22,4 @@ I will answer thes questions with the help of jupyter notebook and pandas
 
 My goal is to create a visualization of the data collected by graphing and tabling it
 
-I will chart or plot this information say that the visualization is clear
+I will chart or plot this information so that the visualization is clear
