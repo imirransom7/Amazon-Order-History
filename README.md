@@ -9,7 +9,7 @@ our orders differ or align.
 
 The csv being used, `OrderHistory.csv`, is a csv I downloaded to provide an analysis on my order history from Amazon.
 
-I will answer thes questions with the help of jupyter notebook and pandas
+I will answer these questions with the help of Jupyter Notebook and pandas
 
 - Who spent the most money in the current year so far? (up to May of 2023)
 - Who has made the most orders?
