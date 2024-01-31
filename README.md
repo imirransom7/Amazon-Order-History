@@ -11,7 +11,7 @@ The csv being used, `OrderHistory.csv`, is a csv I downloaded to provide an anal
 
 I will answer thes questions with the help of jupyter notebook and pandas
 
-- Whos spent the most money in the current year so far? (up to May of 2023)
+- Who spent the most money in the current year so far? (up to May of 2023)
 - Who has made the most orders?
 - How much money was spent bewtween everyone on the account?
 - Is there a category that was purchased the most out of everyone?
