@@ -7,7 +7,7 @@ our orders differ or align.
 
 ## Questions to be answered
 
-The csv being used, `OrderHistory.csv`, is a csv I downloaded to provide an analysis on my order history from Amazon.
+The csv being used, `Retail.OrderHistory.1.csv`, is a csv I downloaded to provide an analysis on my order history from Amazon.
 
 I will answer these questions with the help of Jupyter Notebook and pandas
 
