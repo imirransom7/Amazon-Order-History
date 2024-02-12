@@ -8,10 +8,11 @@ our orders differ or align.
 ## Questions to be answered
 
 The csv being used, `Retail.OrderHistory.1.csv`, is a csv I downloaded to provide an analysis on my order history from Amazon.
+I will also be using the csv, `orders_amazon.csv`, which was created from doing data manipulaitons on the `Retail.OrderHistory.1.csv` csv.
 
 I will answer these questions with the help of Jupyter Notebook and pandas
 
-- Who spent the most money in the current year so far? (up to May of 2023)
+- Who spent the most money in the current year so far? (2023)
 - Who has made the most orders?
 - How much money was spent bewtween everyone on the account?
 - Is there a category that was purchased the most out of everyone?
@@ -23,3 +24,5 @@ I will answer these questions with the help of Jupyter Notebook and pandas
 My goal is to create a visualization of the data collected by graphing and tabling it
 
 I will chart or plot this information so that the visualization is clear
+
+Here is the Tableau Dashboard: https://public.tableau.com/app/profile/imir.ransom/viz/AmazonOrderComparison/Dashboard1#2
